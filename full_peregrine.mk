@@ -18,11 +18,11 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from falcon device
-$(call inherit-product, device/motorola/falcon/device.mk)
+$(call inherit-product, device/motorola/peregrine/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := falcon
-PRODUCT_NAME := full_falcon
+PRODUCT_DEVICE := peregrine
+PRODUCT_NAME := full_peregrine
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := falcon
+PRODUCT_MODEL := peregrine
 PRODUCT_MANUFACTURER := motorola
